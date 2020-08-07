@@ -1,5 +1,5 @@
-def roll_call_dwarves(array)
-  array.each_with_index do |dwarf, index|
+def roll_call_dwarves(dwarf)
+  dwarf.each_with_index do |dwarf, index|
     puts "#{index + 1}. #{dwarf}"
   end
 end
@@ -16,3 +16,8 @@ def find_the_cheese# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
+
+
+#def roll_call_dwarves(dwarves)
+  #dwarves.each_with_index {|dwarf, index| puts "#{index +1}. #{dwarf}"}
+#end
